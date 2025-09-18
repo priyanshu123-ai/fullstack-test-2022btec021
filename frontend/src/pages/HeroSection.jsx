@@ -1,10 +1,11 @@
 import React from "react";
+import image from "../assets/image3.gif"
 
 const HeroSection = () => {
   return (
     <div className="relative w-full h-screen flex items-center justify-center overflow-hidden">
       <img
-        src="https://priyanshu-ecomerce.netlify.app/assets/bg0-DpYZfKYG.gif"
+        src={image}
         alt="Hero Background"
         className="absolute inset-0 w-full h-full object-cover"
       />
